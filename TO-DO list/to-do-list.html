@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>
+        TO-DO LIST
+    </title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+
+
+    <div class="nav-bar">
+       <div class="logo">LOGO</div>
+
+        <ul class="navlinks">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+        </ul>
+
+        <div class="mode"><img src="images/sun.png"></div>
+        
+    </div>
+
+
+    <div class="container">
+        <div class="todo-app">
+            <h2>TO-DO LIST<img src="images/checklist.png"></h2>
+        
+            <div class="row">
+                <input type="text" id="input-box" placeholder="add to list">
+                <button onclick="addtask()">add</button>
+            </div>
+        <ul id="list-container">
+            <!-- <li class="checked">t1</li>
+            <li class="checked">t2</li>
+            <li class="checked">t3</li> -->
+
+        </ul>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
