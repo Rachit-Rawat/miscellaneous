@@ -1,5 +1,3 @@
-package questions;
-
 public class MaxSubArray {
 	
 	public static int meth(int arr[]) {
